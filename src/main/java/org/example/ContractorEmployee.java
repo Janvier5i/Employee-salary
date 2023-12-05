@@ -1,7 +1,7 @@
 package org.example;
 
 
-public class ContractorEmployee extends Employee {
+public class ContractorEmployee implements Employee {
     private double hours;
     private double rate;
 

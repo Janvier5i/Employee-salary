@@ -8,8 +8,10 @@ public class Main {
         ContractorEmployee contractorEmployee = new ContractorEmployee(10.0, 24.0);
         FullTimeEmployee fullTimeEmployee = new FullTimeEmployee(250.0);
         ManagerEmployee managerEmployee = new ManagerEmployee(200.0, 140.0);
-        contractorEmployee.showSalary(contractorEmployee);
-        fullTimeEmployee.showSalary(fullTimeEmployee);
-        managerEmployee.showSalary(managerEmployee);
+
+
+        Print.showSalary(contractorEmployee);
+        Print.showSalary(fullTimeEmployee);
+        Print.showSalary(managerEmployee);
     }
 }

@@ -1,6 +1,6 @@
 package org.example;
 
-public class FullTimeEmployee extends Employee {
+public class FullTimeEmployee implements Employee {
     private double fixedSalary;
 
     public FullTimeEmployee(double fixedSalary) {
